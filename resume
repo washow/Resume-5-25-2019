@@ -1,0 +1,165 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%% RESUME 5/25/2019 BRIAN %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Sang Ryul \textquotedbl{}Brian\textquotedbl{} } \headerlastnamestyle{Lee} \\
+	\vspace{2mm}
+	{\faEnvelope\ washow@gmail.com} | {\faMobile\ 916-844-8244} | {\faMapMarker\ Sacramento, CA} | {\faLink\ https://github.com/washow}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2mm}
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Computer Science}
+	{CSU Sacramento}
+	{Sacramento, CA}
+	{2019}
+	{}
+\end{cventries}
+
+\vspace{-1mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Student Assistant}
+	{Office of Legislative Counsel - Datacenter}
+	{Sacramento, CA}
+	{June 2016 – Dec 2018}
+	{\begin{cvitems}
+		\item Asset Tracking Project
+		\begin{itemize}
+		    \item Smart Phone application that will scan the devices that are deployed in the fields to keep track
+		    \item QA functions
+		\end{itemize}
+		\item Utilized Python to automate existing data processing methods
+		\item Collaborated with cross-functional teams to perform various tasks
+		\end{cvitems}
+	}
+	{}
+	
+	%\cventry
+	%{Store Associate}
+	%{Ink n Toner Solutions}
+	%{Sacramento, CA}
+	%{2015 - 2016}
+	%{}
+
+	\cventry
+	{Store associate}
+	{Ink n Toner Solutions}
+	{Sacramento, CA}
+	{2015 – 2016}
+	{}
+	
+    \cventry
+    {Ski Instructor}
+    {Northstar Ski Resort}
+    {Truckee, CA}
+    {2013 - 2014 Season}
+    {}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{C, Java, SQL, Python, HTML, CSS, Git}
+	{Languages and Tools}
+	%{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+	%	Languages and Tools:  & {\skill{ C, Java, SQL, Python, HTML, CSS, Angular, Git}} %\\
+	%	\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-1mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{An online database and search engine that congregates magnets and superconducting materials used for research and discovery of new materials}
+	{Magnetic and Superconducting Materials Database}
+	{Typescript, Angular, NoSQL, HTML, Azure, Git, CSS, Node.js}
+	{http://tau4.org}
+	{}
+	
+	%\vspace{-5mm}
+	
+	\cventry
+	{A classic game Asteroids remade in Java for Object-Oriented Computer Graphics Programming class}
+	{Asteroids}
+	{Java}
+	{}
+	{}
+	
+	\vspace{-1mm}
+\end{cventries}
+\cvsection{Involvement}
+\begin{cventries}
+\cventry
+    {Handled the organization with over 200 members and directly oversaw SKI SWAP, an annual event that sees 6 figure revenues in a single day}
+    {Vice President - Ski and Snowboard Club}
+    {}
+    {2016 - 2017}
+    {}
+\end{cventries}
+%\begin{cvhonors}
+%	\cvhonor
+%	{VP of Ski and Snowboard club}
+%	{Handled the organization with over 200 members and directly oversaw SKI SWAP, an annual event that sees 6 figure revenues in a single day}
+%	{2017 - 2018}
+%	{}
+%\end{cvhonors}
+\ 
+\end{document}
